@@ -1,7 +1,7 @@
 Agile Software Development and DevOps Git Practice
 ==================================================
 
-##Article about Blind SQL Injection
+## Article about Blind SQL Injection
 
 [Link to article](https://www.hackthis.co.uk/articles/blind-sql-injection)
 
