@@ -1,8 +1,8 @@
 Agile Software Development and DevOps Git Practice
 ==================================================
 
-## Article about Blind SQL Injection
+## Wannacry Ransomware
 
-[Link to article](https://www.hackthis.co.uk/articles/blind-sql-injection)
+[Link to article](https://www.csoonline.com/article/3227906/ransomware/what-is-wannacry-ransomware-how-does-it-infect-and-who-was-responsible.html)
 
-This is an article about Blind SQL Injection and how to perform it. Essentially, Blind SQLi is a type of attack where the attacker can only figure out if their query to the database is true or false. As a result, it is a more time consuming type of attack where a brute force approach may work better by sending many queries and checking for a response to turn up positive in order to move forward with the attack. This is of particular interest to me as I am taking a class on offensive security, where I learn and practice these sorts of skills. While the course is interesting and fun, it is also rather challenging, so a resource like this has been useful for me as I had to automate a blind SQL injection using python as part of our weekly capture the flag assignment.
+Wannacry was a ransomware worm that infected a large number of computers in 2017, encrypting a users hard drive, and requiring them to pay in order for it to be decrypted. This particular worm is interesting as it is believed that the vulnerability that was exploited was originally discovered by the NSA, but the worm itself was linked to an organization tied to the North Korean government. The NSA discoverd the vulnerability (injection of packets to execute code, specifically within Windows Server Message Block protocol), yet they did not inform anyone about the issue, instead devloping their own code to exploit it. This code was then stolen and used to develop the hack, by which time Microsoft had released a patch. But as many users do not apply updates in a timely fashion, many were still left vulnerable, and fell victim to the attack (and people/business still fall victim to it). Basically, the moral of the story is apply official updates as soon as possible.
